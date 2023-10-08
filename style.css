@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Space+Mono&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #f2f2f2; /* Grey Background Color */
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+    height: 850px; /* Set height as needed */
+    background-image: url('Image/image 51.png'); /* Background Image */
+    background-size: cover;
+    background-color: #e3f6fa;
+}
+
+.content {
+    text-align: left; /* Blue Background Color with Opacity */
+    height: 100px;
+    border-radius: 10px; /* Border Radius */
+    padding-top: 200px;
+    padding-left: 100px;
+}
+
+.content h1{
+    font-size: 50px;
+}
+
+.content p{
+    margin: 20px 0px;
+    font-size: 30px;
+}
+
+.bt1{
+    background-color: rgb(36, 36, 202);
+    color: white;
+    height: 5em;
+    width: 20em;
+    margin: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px; /* Border Radius for Button */
+    cursor: pointer;
+}
+
+.content button h3{
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: rgb(102, 102, 237); /* Darker Blue on Hover */
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.cube {
+    width: 150px;
+    height: 180px;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 15px;
+    text-align: space-between;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.row #c1{
+    margin: 15px 10px 10px 20px;
+    border: 2px solid #297b20;
+}
+
+.row #c2{
+    margin: 25px 0px 10px 15px;
+    border: 2px solid #efef2b;
+}
+
+.row #c3{
+    margin: 5px 10px 10px 20px;
+    border: 2px solid #ff6666;
+}
+
+.row #c4{
+    margin: 25px 0px 10px 15px;
+    border: 2px solid #10727f;
+}
+
+.row #c5{
+    margin: 5px 10px 10px 20px;
+    border: 2px solid #fe93ec;
+}
+
+.row #c6{
+    margin: 25px 0px 10px 15px;
+    border: 2px solid #10727f;
+}
+
+.description {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.cube img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.right {
+    text-align: left;
+    margin-top: 200px;
+}
+
+.right h2{
+    padding: 20px;
+    font-size: 40px;
+    color: rgb(2, 37, 2);
+}
+
+.right p{
+    padding: 20px;
+    font-size: 22px;
+}
+
+.right button{
+    margin: 20px;
+    padding: 20px;
+    background-color: #ef7027;
+}
+
+.additional-section {
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.additional-section h2 {
+    padding: 20px;
+    font-size: 40px;
+    color: rgb(2, 37, 2);
+}
+
+.additional-section p {
+    padding: 20px;
+    font-size: 22px;
+}
+
+.container-box {
+    background-color: #ffffff;
+    position: relative; /* Relative positioning for absolute positioning of search icon */
+    margin: 10px 80px;
+    padding: 50px;
+}
+
+.right-heading {
+    margin: 0;
+}
+
+.left-heading {
+    margin: 0;
+    text-align: right;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px; /* Optional: Add margin space between headings and search field */
+}
+
+.search-container i {
+    margin-right: 10px; /* Optional: Add space between search icon and input field */
+}
+
+.container-box input[type="text"] {
+    width: calc(100% - 30px); /* Adjust the width, considering the width of the search icon and padding */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.job-container {
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    padding: 20px 150px;
+    margin: 10px;
+}
+
+.job-details {
+    flex: 0 1 calc(25% - 20px); /* Set width for each job details section (25% width with 20px margin between sections) */
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.job-details button{
+    margin: 10px 0px;
+    padding: 10px 30px;
+    color: #f7f7f7;
+    background-color: #ef7027;
+    border-radius: 20px;
+}
+
+.job-heading h2 {
+    margin: 0;
+}
+
+.small-title {
+    color: #888;
+}
+
+.responsibilities h3 {
+    margin-top: 20px;
+}
+
+.responsibilities select {
+    width: 30%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.opening {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Set the height of the container */
+    background-color: #f2f2f2; /* Background color for the container */
+}
+
+.opening button {
+    background-color: rgb(116, 116, 235);
+    font-size: medium;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.opening button:hover {
+    background-color: rgb(62, 62, 176);
+}
+
+
+.fun-section {
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fun-section h2 {
+    padding: 20px;
+    font-size: 40px;
+    color: rgb(2, 37, 2);
+}
+
+.fun-section p {
+    padding: 20px;
+    font-size: 22px;
+}
+
+.image-collage {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns in the grid */
+    gap: 10px; /* Gap between images */
+    padding: 10px; /* Padding around the collage */
+}
+
+.image-collage img {
+    width: 100%; /* Make images fill the grid cells */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.form-container {
+    background-color: #ffffff;
+    padding: 0px 20px;
+    margin: 100px 250px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-left {
+    width: 50%;
+    padding: 30px;
+}
+
+.form-left h2{
+    padding: 0px 0px 80px 0px;
+}
+
+.form-right {
+    display: flex;
+    justify-content: space-between;
+}
+
+.colored-box1,
+.colored-box2 {
+    background-color: #f1b7f0; /* Set desired background color */
+    height: 150px;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.colored-box1 {
+    border: 2px solid rgb(246, 7, 246);
+    margin-right: 20px;
+}
+
+.colored-box1 button{
+    border-radius: 20px;
+    margin-top: 30px;
+    background-color: #f405b4;
+}
+
+.colored-box2 button{
+    border-radius: 20px;
+    margin-top: 30px;
+    background-color: #0f7104;
+}
+
+.colored-box2{
+    background-color: #93f788;
+    border: 2px solid green;
+}
+
+.colored-box3 {
+    background-color: #efc889; /* Set desired background color */
+    padding: 60px;
+    border: 2px solid #f6ad39;
+    border-radius: 10px;
+    margin: 250px 10px 20px -312px;
+}
+
+.cb31{
+    border-radius: 20px;
+    margin-top: 30px;
+    background-color: #000000;
+}
+
+.cb32{
+    border-radius: 20px;
+    margin-top: 30px;
+    background-color: #f77707;
+}
+
+.radio-options {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.icon-box {
+    text-align: center;
+}
+
+.icon-box img {
+    width: 20px; /* Adjust icon size as needed */
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+.icon-box strong {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+select, input[type="text"], input[type="email"], input[type="tel"], textarea {
+    width: 48%;
+}
+
+.light-box {
+    width: 100px;
+    height: 100px;
+    background-color: lightgrey;
+}
+
+.top-box {
+    margin-bottom: 20px;
+}
+
+.bottom-box {
+    margin-top: 20px;
+}
+
+button {
+    background-color: lightcoral;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.fb1{
+    background-color: #f07544;
+    margin-top: 20px;
+    margin-left: 360px;
+}
+
+button:hover {
+    background-color: #ff6666;
+}
